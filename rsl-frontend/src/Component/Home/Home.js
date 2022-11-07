@@ -3,11 +3,8 @@ import { Box } from "@mui/system";
 import React from "react";
 import Button from "@mui/material/Button";
 import "../Home/Home.css";
-import LanguageIcon from "@mui/icons-material/Language";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
-import DescriptionIcon from "@mui/icons-material/Description";
-import PublicIcon from "@mui/icons-material/Public";
 import SourceIcon from "@mui/icons-material/Source";
 import HeadsetMicIcon from "@mui/icons-material/HeadsetMic";
 import AccessibilityNewIcon from "@mui/icons-material/AccessibilityNew";
@@ -41,36 +38,7 @@ const cardCount = [
   },
 ];
 
-const cardContent = [
-  {
-    id: "1",
-    icon: <LanguageIcon className="icon" />,
-    title: " We believe in customer satisfaction",
-    textt:
-      "We believe in great service to our customers at an affordable price and customer experiences and customer satisfaction.",
-  },
-  {
-    id: "1",
-    icon: <DescriptionIcon className="icon" />,
-    title: "A team that makes a difference",
-    textt:
-      "The zealous and passionate team is what drives us ahead and strengthens our rootsYour success, Our priority. Tell us what you need! We love to talk! Contact-",
-  },
-  {
-    id: "1",
-    icon: <LanguageIcon className="icon" />,
-    title: " We believe in customer satisfaction",
-    textt:
-      "We believe in great service to our customers at an affordable price and customer experiences and customer satisfaction.",
-  },
-  {
-    id: "1",
-    icon: <PublicIcon className="icon" />,
-    title: " We deliver Value",
-    textt:
-      "We aim at complete Customer Satisfaction and are committed to deliver what we promise to and ensure optimum value by delivering Quality practice and Flourishing results.",
-  },
-];
+
 
 const Home = () => {
   return (

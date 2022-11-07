@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Typography } from "@mui/material";
-import { Box, CssBaseline } from "@mui/material";
+import { Box } from "@mui/material";
 import hr from "../img/hr.jpeg";
 import lokeshsir from "../img/lokeshsir.png";
 import "../Testimonials/Testimonials.css";

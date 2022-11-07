@@ -15,12 +15,7 @@ import rslLogo from "../img/rslLogo.png";
 import "../Header/Header.css";
 
 
-const pages = ["Home", "About", "Services", "Portfolio", "Contact"];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
-const navbarBg = {
-    background:"linearGradient(to right, #ffffff 0%, #ab6b5542 100%)",
-    backgroundColor: "linearGradient(to right, #ffffff 0%, #ab6b5542 100%)",
-  }
+
 const Header = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
@@ -95,11 +90,7 @@ const Header = () => {
                   display: { xs: "block", md: "none", },
                 }}
               >
-                {/* {pages.map((page) => (
-                                    <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                        <Typography textAlign="center"><Link to="" >{page}</Link></Typography>
-                                    </MenuItem>
-                                ))} */}
+             
                 <MenuItem onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">
                     <Link className="a" to="home">
@@ -164,15 +155,7 @@ const Header = () => {
                 display: { xs: "none", md: "flex" },
               }}
             >
-              {/* {pages.map((page) => (
-                                <Button
-                                    key={page}
-                                    onClick={handleCloseNavMenu}
-                                    sx={{ my: 2, color: 'white', display: 'block' }}
-                                >
-                                    <Link to="" >{page}</Link>
-                                </Button>
-                            ))} */}
+              
               <Button
               variant="text"
                 onClick={handleCloseNavMenu}
