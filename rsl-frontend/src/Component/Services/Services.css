@@ -70,7 +70,7 @@
     max-width: 1030px;
     margin: 0 auto;
     font-family: 'Josefin Sans', sans-serif !important;
-  } */
+  } 
   @media (min-width: 600px) {
     .page-content-service {
       grid-template-columns: repeat(2, 1fr);
@@ -242,7 +242,7 @@
   .card-service:focus-within  .content-service > *:not(.title-service) {
       opacity: 1;
       transform: translateY(0);
-      transition-delay: calc(var(--d) / 8);
+      transition-delay: calc(var(--d)  8);
     }
   
     .card-service:focus-within:before, .card-service:focus-within:after,
